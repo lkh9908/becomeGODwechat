@@ -125,12 +125,6 @@ export const asyncRoutes = [
         name: 'Storage',
         component: () => import('@/views/storage/index'),
         meta: { title: '存储空间', roles: ['super'] }
-      },
-      {
-        path: '/upgrade',
-        name: 'Upgrade',
-        component: () => import('@/views/upgrade/index'),
-        meta: { title: '系统升级', roles: ['super'] }
       }
     ]
   },
